@@ -1,0 +1,109 @@
+.login{
+    background-color: #282a35;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+form{
+    width: 100%;
+}
+.row{
+ margin:80px 10px;
+ }
+a{
+    text-decoration: none;
+    color: rgb(250, 215, 215);
+}
+#btn{
+    background-color:#04aa6d;
+    font-weight:800;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 40%;
+    height: 45%;
+    font-weight:bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#btn:hover{
+    color: black;
+    background-color: #03935e;
+    font-weight:bold;
+}
+h3{
+    text-align: center;
+    margin-top: 15px;
+   
+}
+input{
+    width: 70%;
+    height: 45%;
+    margin: 5px;
+    border-radius: 15px;
+
+}
+input:focus{
+    outline: none;
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(21, 25, 231, 0.2), 0 6px 20px 0 rgba(39, 53, 245, 0.19);
+    height: 45%;
+}
+h1{
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 30px;
+}
+.quote{
+    background-color: #04aa6de2;
+
+    align-items: center;
+    margin-right: 50px;
+}
+p{
+    color: black;
+}
+/* body{
+    background-image: url('https://i.postimg.cc/ZYNMWrMj/etienne-martin-2-K82gx9-Uk8-unsplash.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+} */
+@media only screen and (max-width: 600px) {
+    .carousel img{
+        height: 200px;
+    }
+    .nxt{
+        margin-top: 50px;
+    }
+}
+.disc{
+    padding: 10px;
+    background-color: rgba(250, 235, 215, 0.79);
+    color: black;
+    margin-bottom: 10px;
+}
+span{
+    font-weight: bold;
+}
+.clear{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

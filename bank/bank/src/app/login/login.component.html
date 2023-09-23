@@ -1,0 +1,39 @@
+<div class="body">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-12 quote">
+
+        <h1><i class="fa-solid fa-quote-left" style="color: #000205;"></i>Every deposit is a step towards your goals.
+          <i class="fa-solid fa-quote-right" style="color: #000205;"></i>
+        </h1>
+      </div>
+      <div class="col-md-6">
+
+        <form (ngSubmit)="login()" [formGroup]="loginForm" class="login">
+          <h3 class="text-white">Login</h3>
+          <input formControlName="accno" type="text" placeholder="Account Number" id="us" name="username">
+          <p class="text-danger validation-text-output"
+            *ngIf="this.loginForm.get('accno')?.errors && this.loginForm.get('accno')?.touched">Accept Only
+            Numbers</p>
+          <input formControlName="psw" type="password" placeholder="Password" id="ps" name="psw">
+          <p class="text-danger validation-text-output"
+            *ngIf="this.loginForm.get('psw')?.errors && this.loginForm.get('psw')?.touched">Please include
+            characters and Numbers Only</p>
+          <button type="submit" id="btn">Log In</button>
+          <p class="clear">Need an Account? <a href="signup" class="text-warning">Sign Up</a></p>
+        </form>
+      </div>
+
+    </div>
+    <div class="disc">
+      <p class="fw-bold fs-5"><span class="text-danger fs-3">Disclaimer:</span>
+        Our bank does not ask for the details of your account/ PIN/ password. Therefore any one pretending to be asking
+        you for information from the bank/ technical team may be fraudulent entities, so please beware. You should know
+        how to operate net transaction and if you are not familiar you may refrain from doing so. You may seek banks
+        guidance in this regard. Bank is not responsible for online transactions going wrong
+
+        We shall also not be responsible for wrong transactions and wanton disclosure of details by you. Viewing option
+        and transaction option on the net are different.You may exercise your option diligently</p>
+    </div>
+  </div>
+</div>

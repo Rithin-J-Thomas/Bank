@@ -1,0 +1,18 @@
+.bg{
+    background-color: rgba(180, 218, 216, 0.773);
+    
+    padding: 10px;
+    color: aliceblue;
+    width: 90%;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bn{
+    display: flex;
+    justify-content: end;
+}
